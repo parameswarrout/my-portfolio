@@ -57,35 +57,37 @@
   <section id="experience" class="section bg-light">
     <div class="container">
       <h2 class="section-title text-center">Experience</h2>
-      <div class="row">
-        <!-- Experience Card 1 -->
-        <div class="col-md-6">
-          <div class="card">
+      <div class="row justify-content-center">
+        <!-- Experience Card -->
+        <div class="col-md-8">
+          <div class="card shadow-sm border-0">
             <div class="card-body">
               <h5 class="card-title">Crawlsight AI Pvt Ltd.</h5>
-              <h6 class="card-subtitle mb-2 text-muted">Internship (Aug 2024 - Present, Remote)</h6>
+              <h6 class="card-subtitle mb-2 text-muted">Full Time (Aug 2024 - Present, Remote)</h6>
               <ul>
-                <li>Implemented a Retrieval-Augmented Generation (RAG) system using Langchain and FAISS.</li>
-                <li>Enhanced NLP tasks by integrating a FAISS vector database.</li>
-                <li>Developed a semantic search engine with pre-trained models.</li>
-                <li>Built a web crawler using Scrapy for efficient data extraction.</li>
+                <li>
+                  <p>Implemented a Retrieval-Augmented Generation (RAG) system using Langchain and FAISS for efficient information retrieval, leveraging Huggingface models to generate accurate, context-aware responses.</p>
+                </li>
+                <li>
+                  <p>Integrated FAISS vector database to enhance the performance of NLP tasks, improving retrieval speed and accuracy for large-scale document search and response generation.</p>
+                </li>
+                <li>
+                  <p>Designed and implemented a semantic search engine leveraging pre-trained models to enhance search accuracy and relevance.</p>
+                </li>
+                <li>
+                  <p>Worked on developing a web crawler using Scrapy to efficiently extract and process large volumes&nbsp;of&nbsp;web&nbsp;data.</p>
+                </li>
+                <li>
+                  <p>Built and deployed the end-to-end application using FastAPI, enabling real-time query handling via RESTful APIs.</p>
+                </li>
               </ul>
-            </div>
-          </div>
-        </div>
-        <!-- Experience Card 2 -->
-        <div class="col-md-6">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">Kalra Overseas Precision Engineering LTD, Pune</h5>
-              <h6 class="card-subtitle mb-2 text-muted">GET (Nov 2017 - Jan 2019)</h6>
-              <p>Managed daily and monthly maintenance operations including planning, crew scheduling, and report preparation.</p>
             </div>
           </div>
         </div>
       </div>
     </div>
   </section>
+
   
   <!-- Education Section -->
   <section id="education" class="section">
@@ -119,47 +121,150 @@
   <!-- Projects Section -->
   <section id="projects" class="section bg-light">
     <div class="container">
-      <h2 class="section-title text-center">Projects</h2>
-      <div class="row">
+      <h2 class="section-title text-center mb-5">Academic Projects</h2>
+      <div class="row g-4">
+      
         <!-- Project Card 1 -->
         <div class="col-md-6">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">Prediction of Tensile Strength</h5>
-              <p class="card-text">Developed a predictive model using Python, Pandas, Numpy, Scikit-Learn, and TensorFlow for friction stir weld joints.</p>
+          <div class="card h-100 shadow-sm">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title"><strong>Prediction of Tensile Strength</strong></h5>
+              <p class="card-text">ML/DL project to predict weld joint strength from input features.</p>
+              <button class="btn btn-outline-primary mt-auto" data-bs-toggle="modal" data-bs-target="#projectModal1">View Details</button>
             </div>
           </div>
         </div>
+
         <!-- Project Card 2 -->
         <div class="col-md-6">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">JustWatch | Movie Data Management</h5>
-              <p class="card-text">Scraped movie data using BeautifulSoup and analyzed streaming trends with Pandas.</p>
+          <div class="card h-100 shadow-sm">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title"><strong>Movie Data Management</strong></h5>
+              <p class="card-text">Scraped and analyzed movie streaming trends using Python.</p>
+              <button class="btn btn-outline-primary mt-auto" data-bs-toggle="modal" data-bs-target="#projectModal2">View Details</button>
             </div>
           </div>
         </div>
+
         <!-- Project Card 3 -->
         <div class="col-md-6">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">Food Vision Image Classification</h5>
-              <p class="card-text">Built deep learning models using EfficientNetB0 and CNNs with TensorFlow and Keras for image classification.</p>
+          <div class="card h-100 shadow-sm">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title"><strong>Food Vision Image Classification</strong></h5>
+              <p class="card-text">Deep Learning model to classify food images using CNNs & EfficientNetB0.</p>
+              <button class="btn btn-outline-primary mt-auto" data-bs-toggle="modal" data-bs-target="#projectModal3">View Details</button>
             </div>
           </div>
         </div>
+
         <!-- Project Card 4 -->
         <div class="col-md-6">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">Transformer Network</h5>
-              <p class="card-text">Implemented a Transformer model exploring masked multi-head attention mechanisms for sequential data.</p>
+          <div class="card h-100 shadow-sm">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title"><strong>Customer Churn Prediction</strong></h5>
+              <p class="card-text">Used ML & DL to detect customer churn in banking dataset.</p>
+              <button class="btn btn-outline-primary mt-auto" data-bs-toggle="modal" data-bs-target="#projectModal4">View Details</button>
             </div>
           </div>
         </div>
+
       </div>
     </div>
   </section>
+
+
+  <!-- Modals -->
+ <!-- Modal 1: Tensile Strength -->
+  <div class="modal fade" id="projectModal1" tabindex="-1" aria-labelledby="projectModal1Label" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title"><strong>Prediction of Tensile Strength of Friction Stir Weld </strong></h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body">
+          <p><strong>Duration:</strong> July 2023 – Jan 2024</p>
+          <p><strong>Description:</strong> Developed a predictive ML/DL model for weld strength.</p>
+          <ul>
+            <li>Developed a predictive model using Python, Pandas, Numpy, Scikit-learn, and TensorFlow, achieving high accuracy in predicting weld joint tensile strength.</li>
+            <li>Conducted data preprocessing, exploratory data analysis, and feature engineering to enhance model performance.</li>
+            <li>Evaluated and optimized models with metrics like R², MAE, and MSE, providing actionable insights for quality control and process optimization.</li>
+          </ul>
+          <p><strong>Technologies:</strong> TensorFlow, Scikit-learn, Numpy, Pandas</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 2: JustWatch -->
+  <div class="modal fade" id="projectModal2" tabindex="-1" aria-labelledby="projectModal2Label" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title"><strong>JustWatch | Movie Data Management</strong></h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body">
+          <p><strong>Duration:</strong> April 2024 – May 2024</p>
+          <ul>
+            <li>Scraped movie data from the Justwatch platform using BeautifulSoup, extracting detailed information on movie availability, genres, and ratings for comprehensive dataset creation.</li>
+            <li>Conducted in-depth data analysis with Pandas to identify trends in movie streaming patterns, popular genres, and audience preferences, providing actionable insights for content strategy.</li>
+          </ul>
+          <p><strong>Technologies:</strong> BeautifulSoup, Pandas, Python</p>
+          <p><strong>GitHub:</strong> <a href="https://github.com/parameswarrout/Projects-company/blob/main/Web-Scraping-justwatch.ipynb" target="_blank">View Project</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 3: Food Vision -->
+  <div class="modal fade" id="projectModal3" tabindex="-1" aria-labelledby="projectModal3Label" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title"><strong>Food Vision Image Classification</strong></h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body">
+          <p><strong>Duration:</strong> Jan 2024 – March 2024</p>
+          <ul>
+            <li>Developed deep learning models for image classification using EfficientNetB0 and Convolutional Neural Network (CNNs), achieving high accuracy through transfer learning.</li>
+            <li>Implemented state-of-the-art techniques to enhance model performance, leveraging TensorFlow and Keras.</li>
+            <li>Utilized tools like TensorFlow, Keras, Scipy, Pandas, Numpy, Scikit-learn, Matplotlib.</li>
+          </ul>
+          <p><strong>Technologies:</strong> TensorFlow, Keras, Numpy, Scikit-learn</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 4: Churn Prediction -->
+  <div class="modal fade" id="projectModal4" tabindex="-1" aria-labelledby="projectModal4Label" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title"><strong>Bank Customer Churn Prediction</strong></h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body">
+          <ul>
+            <li>Analyzed a bank customer dataset from Kaggle to identify factors influencing customer churn through exploratory data analysis (EDA) and visualizations.</li>
+            <li>Preprocessed data by handling missing values, encoding categorical features, and scaling numerical data.</li>
+            <li>Built and evaluated multiple machine learning models (Logistic Regression, Decision Tree, Random Forest, Gradient Boosting, XGBoost, SVM) to classify customers as likely to churn or not.</li>
+            <li>Applied hyperparameter tuning (GridSearchCV) to optimize Random Forest performance.</li>
+            <li>Developed a deep learning model using TensorFlow and Keras with dropout regularization and early stopping to improve accuracy and prevent overfitting.</li>
+            <li>Evaluated models using metrics like Accuracy, F1 Score, Confusion Matrix, and ROC-AUC.</li>
+            <li>Key insights: older customers and inactive members were more likely to churn; ensemble methods performed best at capturing complex patterns.</li>
+          </ul>
+          <p><strong>Technologies:</strong> Scikit-learn, XGBoost, Keras, Matplotlib</p>
+          <p><strong>GitHub:</strong> <a href="https://github.com/parameswarrout/Bank-Customer-Churn-Analysis/blob/main/README.md" target="_blank">View Project</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
 
 <!-- Certification Section -->
 <section id="certifications" class="section bg-light">
